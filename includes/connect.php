@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
+$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 // we want it to die to then have this message have this message
 if ($mysqli->connect_error) {
 	die('Connect Error (' . $mysqli->connect_errno .')'
