@@ -3,8 +3,6 @@
 <head>
 <title>Jacky's To-Do App 2</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
 	<div class="wrap">
@@ -18,9 +16,9 @@
 					if($numrows>0) {
 						while($row = $result->fetch_assoc()) {
 							$task_id = $row['id'];
-							$task_name = $row["task"];
+							$task_name = $row['task'];
 							echo '<li>
-							<span>'.$task_name. '</span>     
+							<span>'.$task_name. '</span>
 							<img id="'.$task_id.'" class="delete-button" width="10px" src="images/close.svg"/>
 							</li>';
 						}
@@ -28,9 +26,9 @@
 				}
 				?>
 			
-			</ul>      
+			</ul>
 	</div>
-	<form class="add-new-task" autocomplete="off">     
+	<form class="add-new-task" autocomplete="off">
 		<input type="text" name="new-task" placeholder="Add new item..."/>
 		</form>
 		</div>
@@ -45,7 +43,7 @@
 			if (new_task != '') {
 				$.post('includes/add-task.php', {task: new_task}, function(data) {
 					$('add-new-task input[name=new-task]').val();
-						$(data).appendTo('task-list ul').hide().fadeIn();
+						$(data).appendTo('.task-list ul').hide().fadeIn();
 				});
 			}
 			return false;
