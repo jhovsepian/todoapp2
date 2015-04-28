@@ -1,9 +1,23 @@
+<?php 
+require_once(__DIR__ . "/model/config.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
 <title>Jacky's To-Do App 2</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+<header>
+	<button type ="button">
+<a href="<?php echo $path . "register.php"?>">Register</a>		
+	</button>
+	<button type ="button">
+<a href="<?php echo $path . "login.php"?>">Login</a>		
+	</button>
+	<button type ="button">
+<a href="<?php echo $path . "controller/logout-user.php"?>">Logout</a>		
+	</button>
+</header>
 <body>
 	<div class="wrap">
 		<div class="task-list">
@@ -61,10 +75,3 @@
 </script>
 </html>
 
-<?php
-    require_once(__DIR__ . "/view/header.php");  
-    require_once(__DIR__ . "/view/navigation.php");
-    require_once(__DIR__ . "/controller/create-db.php"); 
-    require_once(__DIR__ . "/view/footer.php"); 
-    
-?>
