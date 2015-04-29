@@ -5,7 +5,12 @@ body {
 	font:normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
 	background: #f1f1f1;
-	background:url(https://showtimephotography.files.wordpress.com/2012/10/lemontree-sunset-1.jpg);
+	background:url(https://c4.staticflickr.com/4/3708/9309833189_fb614c8322_b.jpg);
+	-webkit-background-size: cover;
+ 	    -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
 }
 
 	.wrap {
@@ -28,8 +33,7 @@ body {
 		border-color: white;
 		color: pink;
 		text-align: center;
-		background: url("http://eztechtraining.com/wp-content/uploads/2012/10/purple_pink1.jpg");
-		background-image: stretch;
-
+		background: url("http://i694.photobucket.com/albums/vv303/haruno-sakura/purple.gif");
+		
 	}
 
