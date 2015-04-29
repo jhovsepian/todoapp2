@@ -1,9 +1,11 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+
 body {
 	font:normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
 	background: #f1f1f1;
+	background:url();
 }
 
 	.wrap {
@@ -18,4 +20,16 @@ body {
 		box-shadow: 2px 2px 0px #ddd;
 		margin-top: 40px;
 		padding: 22px 6%;
+
 	}
+
+	.Hi {
+		border: double;
+		border-color: white;
+		color: white;
+		text-align: center;
+		background: url("http://beachgrooves.com/wp-content/uploads/2014/07/beach.jpg");
+		background-image: stretch;
+
+	}
+

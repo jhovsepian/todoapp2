@@ -19,6 +19,11 @@ require_once(__DIR__ . "/model/config.php");
 	</button>
 </header>
 <body>
+   <div id="title" class="Hi col-x-12">
+   	<h1>
+   		Welcome to My Todo 2 Page!
+   	</h1>
+   </div>
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
