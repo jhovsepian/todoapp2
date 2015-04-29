@@ -5,7 +5,7 @@ body {
 	font:normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
 	background: #f1f1f1;
-	background:url();
+	background:url(https://showtimephotography.files.wordpress.com/2012/10/lemontree-sunset-1.jpg);
 }
 
 	.wrap {
@@ -26,9 +26,9 @@ body {
 	.Hi {
 		border: double;
 		border-color: white;
-		color: white;
+		color: pink;
 		text-align: center;
-		background: url("http://beachgrooves.com/wp-content/uploads/2014/07/beach.jpg");
+		background: url("http://eztechtraining.com/wp-content/uploads/2012/10/purple_pink1.jpg");
 		background-image: stretch;
 
 	}
