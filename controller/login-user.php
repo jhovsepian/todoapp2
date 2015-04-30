@@ -10,6 +10,7 @@
 
         if ($row["password"] === crypt($password, $row["salt"])) {
             $_SESSION["authenticated"] = true;
+            header("Location: " .$path . "index.php");
             $_SESSION["name"] = $username;
         } else {
             echo "Invalid username and password1";
@@ -17,3 +18,4 @@
     } else {
         echo "Invalid username and password2";
     }
+

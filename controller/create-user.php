@@ -26,3 +26,4 @@
     } else {
         echo "Username already exists";
     }
+    header("Location: " .$path . "login.php");
