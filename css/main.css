@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
 
 body {
 	font:normal 14px 'Open Sans', Arial, sans-serif;
@@ -36,4 +37,9 @@ body {
 		background: url("http://i694.photobucket.com/albums/vv303/haruno-sakura/purple.gif");
 		
 	}
+
+	
+    
+	};
+
 
